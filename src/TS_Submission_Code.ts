@@ -65,3 +65,8 @@ function getQuizSummary(scores: number[]): QuizSummary{
 
     return {total: total, average: average}
 }
+
+
+// For test
+console.log(getBatteryStatus(75)); 
+console.log(calculateWeeklyTotal([200, 450, 100]));
